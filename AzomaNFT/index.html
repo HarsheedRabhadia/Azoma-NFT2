@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azoma</title>
+
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+/>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+
+    <header class="header">
+        <a href="#" class="logo"> <i class="fa-sharp fa-solid fa-user-ninja"></i> Azoma. </a>
+
+        <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="#">Story</a>
+            <a href="#">Stealth Legends</a>
+            <a href="#">Roadmap</a>
+            <a href="#">Meet the Team</a>
+            <a href="#">FAQ</a>
+        </nav>
+
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+    </header>
+
+
+
+<section class="home" id="home">
+    <div class="slides-container">
+
+        <div class="slide active">
+            <div class="content">
+                <div class="slideimg">
+                </div>
+                <h3>Ninjas of Web 3.0: 8,888 digital warriors forging a path to freedom, unleashing their power in the new world of blockchain. Embrace the stealthy revolution and join the movement that is redefining the future.</h3>
+                    <a href="#" class="btn">twitter</a>
+                    <a href="#" class="btn">opensea</a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="img/main1.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="content">
+                <div class="slideimg">
+                </div>
+                <h3>Ninjas of Web 3.0: 8,888 digital warriors forging a path to freedom, unleashing their power in the new world of blockchain. Embrace the stealthy revolution and join the movement that is redefining the future.</h3>
+                    <a href="#" class="btn">twitter</a>
+                    <a href="#" class="btn">opensea</a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="img/main2.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div id="next-slide"class="fas fa-angle-right" onclick="next()"></div>
+    <div id="prev-slide"class="fas fa-angle-left" onclick="next()"></div>
+</section>
+
+
+
+
+<section class="banner-container">
+    <div class="banner">
+        <img decoding="async" src="img/home1.jpg">
+        <div class="content">
+            <a href="#" class="btn">check out</a>
+        </div>
+    </div>
+</section>
+
+
+
+
+<section class="story">
+    <h1 class="title"> our <span>story</span><a href="#">view all >></a> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="img/main1.jpg">
+            </div>
+            <div class="content">
+                <h3>Shadow Penguin Ninja</h3>
+                <div class="price">0.095 ETH</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="img/main2.jpg">
+            </div>
+            <div class="content">
+                <h3>Radiant Feline Ninja</h3>
+                <div class="price">0.095 ETH</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="img/main3.jpg">
+            </div>
+            <div class="content">
+                <h3>Zephyr Zebra Ninja</h3>
+                <div class="price">0.095 ETH</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="img/main4.jpg">
+            </div>
+            <div class="content">
+                <h3>Bamboo Shadow Ninja</h3>
+                <div class="price">0.095 ETH</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="img/main5.jpg">
+            </div>
+            <div class="content">
+                <h3>Golden-Maned Lion Ninja</h3>
+                <div class="price">0.095 ETH</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="img/main6.jpg">
+            </div>
+            <div class="content">
+                <h3>Iridescent Unicorn Ninja</h3>
+                <div class="price">0.095 ETH</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="img/main7.jpg">
+            </div>
+            <div class="content">
+                <h3>Sakura Swine Ninja</h3>
+                <div class="price">0.095 ETH</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="img/main8.jpg">
+            </div>
+            <div class="content">
+                <h3>Ambrosia Bee Ninja</h3>
+                <div class="price">0.095 ETH</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+</div>
+</section>
+
+
+<section>
+<h1 class="title"> Stealth <span>Legends</span> <a href="#">read more >></a> </h1>
+</section>
+<section class="firepit">
+    <div class="content">
+        <h3>Stealth Legends
+        </h3>
+        <p>Unmasking the Secrets is an immersive NFT project that takes you on a journey of mystery and mastery. Step into the world of ninja warriors and embrace the hidden knowledge and skills necessary to become a legend in the NFT space. With each milestone, you unlock unique digital assets, representing different facets of the ninja's art. 
+        <br><br>
+        Engage with a vibrant community, conquer challenges, and uncover hidden treasures as you delve deeper into the secrets of Stealth Legends.
+        </p>
+        <a href="#" class="btn">check out</a>
+    </div>
+
+    <div class="img">
+        <img decoding="async" src="img/home3.jpg">
+    </div>
+</section>
+
+
+
+
+<section>
+    <h1 class="title">roadmap <span>preview</span> <a href="#">read more >></a> </h1>
+</section>
+
+<section class="roadmap" id="roadmap">
+    <div class="swiper mySwiper roadmap-slider">
+        <div class="swiper-wrapper wrapper">
+
+            <div class="swiper-slide slide">
+            
+                <div class="user">
+                    <img decoding="async" src="img/slide1.jpg">
+                    <div class="user-info">
+                        <h3>Awakening Shadows</h3>
+                       
+                    </div>
+                </div>
+                <p>Begin your journey as a novice, honing your skills in the art of stealth. Uncover the fundamental principles and embrace the shadowy techniques that will serve as the foundation of your mastery.</p>
+            </div>
+
+            <div class="swiper-slide slide">     
+                <div class="user">
+                    <img decoding="async" src="img/slide2.jpg">
+                    <div class="user-info">
+                        <h3>Tools of the Trade</h3>
+                    </div>
+                </div>
+                <p>Acquire powerful ninja tools and gadgets that enhance your abilities. From shurikens to smoke bombs, each item empowers you with unique advantages, enabling you to navigate the digital realm with finesse.</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="user">
+                    <img decoding="async" src="img/slide3.jpg">
+                    <div class="user-info">
+                        <h3>Temple of Trials</h3>
+                    </div>
+                </div>
+                <p>Prove your worth in the Temple of Trials, a series of challenges designed to push your skills to the limit. Conquer obstacle courses, decode ancient puzzles, and demonstrate your agility, earning recognition as a formidable ninja.</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="user">
+                    <img decoding="async" src="img/slide4.jpg">
+                    <div class="user-info">
+                        <h3>Clan Alliances</h3>
+                    </div>
+                </div>
+                <p>Forge alliances with fellow ninjas in the community. Collaborate, share insights, and engage in strategic partnerships as you build a network of trusted allies who will support you in your quest for greatness.</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="user">
+                    <img decoding="async" src="img/slide5.jpg">
+                    <div class="user-info">
+                        <h3>Legendary Encounters</h3>
+                    </div>
+                </div>
+                <p>Encounter legendary adversaries and overcome fierce battles. These epic encounters will test your mettle, requiring you to combine your acquired skills and resources to emerge victorious.</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="user">
+                    <img decoding="async" src="img/slide6.jpg">
+                    <div class="user-info">
+                        <h3>Ascension to Legend</h3>
+                    </div>
+                </div>
+                <p>Reach the pinnacle of ninja mastery and ascend to legendary status. Become a revered figure in the Stealth Legends community, revered for your expertise and respected as a paragon of the ninja way.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+
+<section class="teams">
+    <h1 class="title">our <span>team</span> <a href="#">view all >></a></h1>
+
+
+<div class="box-container">
+
+    <div class="box">
+        <div class="img">
+            <img decoding="async" src="img/main5.jpg">
+        </div>
+        <div class="content">
+            <div class="icons">
+                <a href="#" class="fas fa-user"></i> Harsheyy</a>
+            </div>
+            <h3>Founding Ninja</h3>
+            <p>With lightning speed and a cup of coffee in hand, the Founder Ninja leaps into action, coding by day and fending off bugs by night, ensuring the NFT world is safe, sound, and filled with laughter.</p>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="img">
+            <img decoding="async" src="img/main4.jpg">
+        </div>
+        <div class="content">
+            <div class="icons">
+                <a href="#" class="fas fa-user"></i> Evo</a>
+            </div>
+            <h3>Artist</h3>
+            <p>The Artist Ninja, with brush in hand, unite their unique talents to bring forth a harmonious symphony of pixels and code, creating NFT masterpieces that enchant the digital realm.</p>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="img">
+            <img decoding="async" src="img/slide3.jpg">
+        </div>
+        <div class="content">
+            <div class="icons">
+                <a href="#" class="fas fa-user"></i> Sinister</a>
+            </div>
+            <h3>Developer</h3>
+            <p>The Developer Ninja, armed with keyboards and caffeine, fearlessly treads the lines of code, weaving magic and innovation into the very fabric of the digital world, one bug fix at a time.</p>
+        </div>
+    </div>
+
+</div>
+</section>
+
+
+
+<section class="">
+    <h1 class="title">FAQ <span>questions</span> <a href="#">what we say >></a></h1>
+    </section>
+
+    <section class="faq">
+    <div class="icons-container">
+        <div class="icons">
+            <i class="fas fa-bookmark"></i>
+            <h3>Is there a place to buy off of secondaries?</h3>
+            <p>Opensea</p>
+            <p>Looks Rare</p>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-money-bill-alt"></i>
+            <h3>What are your secondary royalty fees?</h3>
+            <p>5%</p>
+            <p>0.02%</p>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-cookie"></i>
+            <h3>Total number of tokens Blockchain:</h3>
+            <p>8.888</p>
+            <p>7.561</p>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>quick links</h3>
+                <a href="#"> <i class="fa fa-arrow-right"></i>Home</a>
+                <a href="#"> <i class="fa fa-arrow-right"></i>Story</a>
+                <a href="#"> <i class="fa fa-arrow-right"></i>Stealth Legends</a>
+                <a href="#"> <i class="fa fa-arrow-right"></i>Roadmap</a>
+                <a href="#"> <i class="fa fa-arrow-right"></i>Meet the Team</a>
+                <a href="#"> <i class="fa fa-arrow-right"></i>FAQ</a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+                <a href="#"> <i class="fa fa-arrow-right"></i> my order</a>
+                <a href="#"> <i class="fa fa-arrow-right"></i> my favorite</a>
+                <a href="#"> <i class="fa fa-arrow-right"></i> my wishlist</a>
+                <a href="#"> <i class="fa fa-arrow-right"></i> my account</a>
+                <a href="#"> <i class="fa fa-arrow-right"></i> terms & conditions</a>
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#"> <i class="fab fa-twitter"></i> Twitter</a>
+            <a href="#"> <i class="fab fa-instagram"></i> Instagram</a>
+            <a href="#"> <i class="fab fa-discord"></i> Discord</a>
+        </div>
+
+        <div class="box">
+            <h3>Get on the list</h3>
+            <form action="">
+                <input type="email" placeholder="Email Address">
+                <input type="submit" value="Submit" class="btn">
+            </form>
+        </div>
+</div>
+</section>
+
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js" defer data-deferred="1"></script>  <script src="/js/app.js" defer data-deferred="1"></script> </body>
+</html>
